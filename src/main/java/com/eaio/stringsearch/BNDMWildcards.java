@@ -62,7 +62,7 @@ public class BNDMWildcards extends BNDM {
      * 
      * Constructor for BNDMWildcards.
      *
-     * @param wildcard
+     * @param wildcard The wildcard character to use
      */
     public BNDMWildcards(char wildcard) {
         super();

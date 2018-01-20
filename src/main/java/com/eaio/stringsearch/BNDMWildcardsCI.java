@@ -44,7 +44,7 @@ package com.eaio.stringsearch;
 public class BNDMWildcardsCI extends BNDMWildcards {
 
     /**
-     * Constructor for BNDMWildcardsCI.
+     * Constructor for BNDMWildcardsCI. Use '.' as wildcard character.
      */
     public BNDMWildcardsCI() {
         super();

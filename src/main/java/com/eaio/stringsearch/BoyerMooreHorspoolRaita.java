@@ -30,7 +30,7 @@ package com.eaio.stringsearch;
 /**
  * An implementation of Raita's enhancement to the Boyer-Moore-Horspool String
  * searching algorithm. See "Tuning the Boyer-Moore-Horspool string searching
- * algorithm" (appeared in <em>Software - Practice & Experience,
+ * algorithm" (appeared in <em>Software - Practice &amp; Experience,
  * 22(10):879-884</em>).
  * <p>
  * This algorithm is slightly faster than the

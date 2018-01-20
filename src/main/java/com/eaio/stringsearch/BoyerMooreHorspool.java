@@ -30,7 +30,7 @@ package com.eaio.stringsearch;
 /**
  * An implementation of Horspool's improved version of the Boyer-Moore String
  * searching algorithm. See "Practical fast searching in strings" (appeared in
- * <em>Software - Practice & Experience, 10(6):501-506</em>). Unfortunately,
+ * <em>Software - Practice &amp; Experience, 10(6):501-506</em>). Unfortunately,
  * there seems to be no on-line version of his paper.
  * <p>
  * This is the second fastest algorithm in this library for the

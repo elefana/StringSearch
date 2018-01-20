@@ -1,3 +1,0 @@
-#!/bin/bash
-mvn clean site jar:jar source:jar deploy:deploy-file
-

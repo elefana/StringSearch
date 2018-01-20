@@ -500,7 +500,8 @@ public abstract class StringSearch {
      * <code>null</code>
      * @param textStart at which position in the text the comparing should start
      * @param pattern the pattern to search for, may not be <code>null</code>
-     * @param processed
+     * @param processed an Object as returned from {@link #processBytes(byte[])},
+     * may not be <code>null</code>
      * @return the position in the text or -1 if the pattern was not found
      * @see #searchBytes(byte[], int, int, byte[], Object)
      */

@@ -34,8 +34,8 @@ package com.eaio.stringsearch;
  * <code>31 / &lceil; log<sub>2</sub>(k + 1) &rceil;</code>. If it is, only
  * characters to the maximum pattern length will be processed which might
  * lead to unexpected results.
- * <p>
- * <table style="border: 1px solid #ccc" cellpadding="4">
+ * </p>
+ * <table style="border: 1px solid #ccc" cellpadding="4" summary="">
  * <tr>
  * <td>Number of mismatches (<code>k</code>)</td>
  * <td>Maximum pattern length</td>
