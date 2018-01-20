@@ -27,7 +27,7 @@ if(project.hasProperty('ossrhUser') && project.hasProperty("release")) {
 }
 
 group = 'com.elefana'
-version = '1.0.0-SNAPSHOT'
+version = '2.2.0'
 description = 'High-perfor­mance pattern matching algo­rithms in Java'
 
 repositories {

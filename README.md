@@ -1,40 +1,31 @@
 # StringSearch
 ## High-performance pattern matching algorithms in Java
 
+[![Build Status](https://travis-ci.org/elefana/stringsearch.svg?branch=master)](https://travis-ci.org/elefana/stringsearch)
+
 The Java language lacks fast string searching algorithms. StringSearch provides implementations of the Boyer-Moore and the Shift-Or (bit-parallel) algorithms. These algorithms are easily five to ten times faster than the naïve implementation found in `java.lang.String`.
+
+Based on implementation by [Johann Burkard](http://johannburkard.de)
 
 ## Download
 
-[Download StringSearch 2.2 (JAR)](http://repo.eaio.com/maven2/com/eaio/stringsearch/stringsearch/2.2/stringsearch-2.2.jar)
-
-[Download StringSearch 2.2 (Source JAR)](http://repo.eaio.com/maven2/com/eaio/stringsearch/stringsearch/2.2/stringsearch-2.2-sources.jar)
-
-Or get StringSearch through Maven:
+Maven:
 
 ```XML
 	<dependencies>
 		<dependency>
-			<groupId>com.eaio.stringsearch</groupId>
+			<groupId>com.elefana</groupId>
 			<artifactId>stringsearch</artifactId>
 			<version>2.2</version>
 		</dependency>
 	</dependencies>
-…
-	<repositories>
-		<repository>
-			<id>eaio.com</id>
-			<url>http://repo.eaio.com/maven2</url>
-		</repository>
-	</repositories>
 ```
 
-### StringSearch 1.2
+Gradle:
 
-StringSearch 1.2, which includes a native library and a different selection of algorithms, is still available.
-
-[Download StringSearch 1.2 (ZIP)](http://johannburkard.de/software/stringsearch/stringsearch-1.2.zip)
-
-[Download StringSearch 1.2 (TAR.GZ)](http://johannburkard.de/software/stringsearch/stringsearch-1.2.tar.gz)
+```
+	compile "com.elefana:stringsearch:2.2.0"
+```
 
 ## Documentation
 
@@ -62,5 +53,3 @@ StringSearch is licensed under the [MIT License](http://johannburkard.de/softwar
 * [StringSearch on johannburkard.de](http://johannburkard.de/software/stringsearch/)
 * [Maven-generated Site](http://johannburkard.de/software/stringsearch/site/)
 * [APIdoc](http://johannburkard.de/software/stringsearch/site/apidocs/)
-
-[![Analytics](https://ga-beacon.appspot.com/UA-7427410-89/StringSearch/README.md?pixel)](https://github.com/igrigorik/ga-beacon)
